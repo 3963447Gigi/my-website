@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.home, .about, .projects {
+    padding: 20px;
+}
+
+.home h1, .about h1, .projects h1 {
+    font-size: 2em;
+}
+
+.home p, .about p, .projects p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-category {
+    margin: 20px;
+}
+
+.project-category h2 {
+    font-size: 1.5em;
+}
+
+.project-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-category li {
+    margin: 10px 0;
+}
